@@ -15,10 +15,6 @@ app.get('/', (req, res) => {
   res.json({'Hello Lucy!': 'Server'});
 })
 
-app.get('/11', (req, res) => {
-  res.json({'New endpoint': 'Server'});
-})
-
 
 app.use('/programming-languages', programmingLanguagesRouter);
 
