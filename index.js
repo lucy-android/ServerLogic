@@ -12,7 +12,7 @@ app.use(
 );
 
 app.get('/', (req, res) => {
-  res.json({'Hello Lucy!': 'Server'});
+  res.json({'Hello John Doe!': 'Server'});
 })
 
 
